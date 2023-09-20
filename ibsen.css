@@ -21,7 +21,47 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.KROGSTAD{
+.KROGSTAD {
     color: rgb(235, 12, 135);
     font-family: 'Times New Roman', Times, serif;
+}
+table {
+    border-color: rgb(15, 243, 205);
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+    border: 2px solid;
+    border-radius: 5px;
+    border-color:rgb(239, 18, 206);
+    color: white;
+    height: 50px;
+    background-color:rgb(8, 135, 254);
+}
+td {
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:rgb(237, 8, 8);
+    background-color: rgb(11, 130, 242);
+    height: 30px;
+}
+
+tr:hover {background-color:lightskyblue;}
+
+.MRSLINDE:hover{
+    font-size: medium;
+    color: red;
+    text-shadow: 0 0 20px rgb(197, 230, 13);
+    border-style: dotted;
+    border-radius: 15px;
+}
+.KROGSTAD:hover {
+    font-size: medium;
+    color: blueviolet;
+    text-shadow: 0 0 20px rgb(236, 10, 100);
+    border-style: solid;
+    border-radius: 10px;
 }
