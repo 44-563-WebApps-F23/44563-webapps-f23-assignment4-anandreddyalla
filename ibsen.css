@@ -45,11 +45,16 @@ td {
     border: 2px solid;
     border-radius: 10px;
     border-color:rgb(237, 8, 8);
-    background-color: rgb(11, 130, 242);
+    
     height: 30px;
 }
 
-tr:hover {background-color:lightskyblue;}
+tr:nth-child(odd) {
+    background-color: #1b93cb;
+  }
+  tr:nth-child(even) {
+    background-color: #62c7a2;
+  }
 
 .MRSLINDE:hover{
     font-size: medium;
