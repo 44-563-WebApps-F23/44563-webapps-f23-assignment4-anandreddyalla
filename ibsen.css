@@ -64,4 +64,25 @@ tr:hover {background-color:lightskyblue;}
     text-shadow: 0 0 20px rgb(236, 10, 100);
     border-style: solid;
     border-radius: 10px;
+} 
+.nav {
+    background-color: rgb(44, 204, 60);
+    color: white;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
 }
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
